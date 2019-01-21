@@ -1,4 +1,4 @@
-data {
+data= {
     threads :{
         t1:{
             '.key': 't1', //post['.key']
