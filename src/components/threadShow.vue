@@ -1,7 +1,7 @@
 <template>
 <div  class="col-large push-top">
-    <h1 v-for="thread in threads"></h1>
-    <div>
+    <!-- <h1 v-for="thread in threads"></h1> -->
+    <!-- <div> -->
   <h1> {{thread.title}} </h1>
   <div class="post-list">
     <div v-for="postId in thread.posts" class="post">
@@ -23,7 +23,6 @@
     </div>
   </div>
 </div>
-</div>
 
 </template>
 <script>
@@ -32,7 +31,7 @@ export default {
     props:{
         id:{
             required: true,
-            type:String
+            type: String
         }
     },
     data(){
